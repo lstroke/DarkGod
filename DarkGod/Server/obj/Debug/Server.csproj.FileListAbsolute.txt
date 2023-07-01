@@ -1,0 +1,14 @@
+D:\Unity\gameProject\DarkGod\Server\bin\Debug\Server.exe
+D:\Unity\gameProject\DarkGod\Server\bin\Debug\Server.pdb
+D:\Unity\gameProject\DarkGod\Server\bin\Debug\MySql.Data.dll
+D:\Unity\gameProject\DarkGod\Server\bin\Debug\PEProtocol.dll
+D:\Unity\gameProject\DarkGod\Server\bin\Debug\PESocket.dll
+D:\Unity\gameProject\DarkGod\Server\bin\Debug\PEProtocol.pdb
+D:\Unity\gameProject\DarkGod\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+D:\Unity\gameProject\DarkGod\Server\obj\Debug\Server.csproj.SuggestedBindingRedirects.cache
+D:\Unity\gameProject\DarkGod\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+D:\Unity\gameProject\DarkGod\Server\obj\Debug\Server.csproj.CopyComplete
+D:\Unity\gameProject\DarkGod\Server\obj\Debug\Server.exe
+D:\Unity\gameProject\DarkGod\Server\obj\Debug\Server.pdb
+D:\Unity\gameProject\DarkGodServer\Server.exe
+D:\Unity\gameProject\DarkGodServer\Server.pdb

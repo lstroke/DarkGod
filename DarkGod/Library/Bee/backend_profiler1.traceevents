@@ -1,0 +1,550 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1688032110416331, "dur":839, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688032110417175, "dur":69, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1688032110417268, "dur":15, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1688032110417283, "dur":190, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1688032110417492, "dur":420, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688032110417912, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688032113184383, "dur":131, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688032113184514, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688032113184519, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688032113184521, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688032113184526, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688032113184527, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688032113184530, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688032113184531, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688032113184537, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688032113184538, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688032113184541, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688032113184542, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688032113184546, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688032113184547, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688032113184551, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688032113184551, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688032113184555, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688032113184565, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688032113184585, "dur":1297, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1688032110418099, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688032110418099, "dur":2907, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688032110421007, "dur":50021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1688032110471030, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688032110471045, "dur":1579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1688032110472632, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1688032110472650, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688032110472865, "dur":136736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1688032110609611, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688032110609680, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688032110609684, "dur":1318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688032110611009, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688032110611081, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688032110611095, "dur":1050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688032110612153, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688032110612223, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688032110612226, "dur":1501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688032110613734, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688032110613805, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688032110613808, "dur":957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688032110614772, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688032110614834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688032110614837, "dur":1089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688032110615933, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688032110615999, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688032110616002, "dur":2795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688032110618805, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688032110618868, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688032110618871, "dur":2620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688032110621498, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688032110621570, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688032110621573, "dur":1173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688032110622753, "dur":612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688032110623367, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688032110623370, "dur":408739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688032111032120, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688032111032270, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688032111032274, "dur":170166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688032111202457, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688032111202550, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688032111202554, "dur":915476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688032112118044, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688032112118180, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688032112118184, "dur":30529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688032112148726, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688032112148881, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688032112148884, "dur":821980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688032112970872, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688032112970949, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688032112970953, "dur":4448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688032112975412, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.AutoStreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688032112975490, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688032112975493, "dur":13231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.AutoStreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688032112988737, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688032112988820, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688032112988826, "dur":4441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688032112993278, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688032112993348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688032112993351, "dur":13403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688032113006763, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688032113006836, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688032113006839, "dur":2717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688032113009564, "dur":521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688032113010109, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688032113010115, "dur":37968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688032113048263, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688032113048452, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688032113048456, "dur":8188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688032113056653, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/Sirenix.OdinInspector.Attributes.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688032113056755, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688032113056758, "dur":43371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/Sirenix.OdinInspector.Attributes.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688032113100137, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1688032113100158, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688032113100169, "dur":7045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1688032113107227, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1688032113107310, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688032113107313, "dur":29171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1688032113136505, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/level3" }}
+,{ "pid":12345, "tid":1, "ts":1688032113136525, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688032113136531, "dur":24594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/level3" }}
+,{ "pid":12345, "tid":1, "ts":1688032113161155, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1688032113161225, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688032113161233, "dur":14253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1688032113175494, "dur":8877, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688032110417989, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688032110417990, "dur":2976, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688032110420970, "dur":118929, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1688032110539902, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688032110539909, "dur":613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1688032110540532, "dur":718008, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688032111258544, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688032111258549, "dur":1707992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688032112966555, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688032112966661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688032112966670, "dur":6544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688032112973222, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688032112973306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688032112973326, "dur":3986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688032112977321, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688032112977385, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688032112977387, "dur":14561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688032112991956, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688032112992204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688032112992207, "dur":13054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688032113005269, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688032113005338, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688032113005341, "dur":2362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688032113007710, "dur":1715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688032113009427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688032113009431, "dur":28845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688032113038293, "dur":1418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688032113039714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688032113039719, "dur":51727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688032113091455, "dur":435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688032113091893, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688032113091901, "dur":14341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688032113106253, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1688032113106263, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688032113106266, "dur":19596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1688032113125877, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1688032113125889, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688032113125893, "dur":58460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1688032113184361, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1688032113184363, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688032110417903, "dur":20, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688032110417923, "dur":3094, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688032110421018, "dur":23693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1688032110444714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688032110445615, "dur":13003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1688032110458629, "dur":35461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1688032110494093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688032110494099, "dur":850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1688032110494957, "dur":9970, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1688032110504929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688032110504933, "dur":2678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1688032110507624, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1688032110507673, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688032110507678, "dur":116696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1688032110624385, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688032110624454, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688032110624457, "dur":572232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688032111196698, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688032111196770, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688032111196774, "dur":6464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688032111203247, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688032111203328, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688032111203332, "dur":915186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688032112118529, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688032112118694, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688032112118698, "dur":31597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688032112150303, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688032112150371, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688032112150374, "dur":822402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688032112972783, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688032112972841, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688032112972844, "dur":4084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688032112976936, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688032112977024, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688032112977028, "dur":11790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688032112988826, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688032112989013, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688032112989016, "dur":6880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688032112995904, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688032112995964, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688032112995968, "dur":10801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688032113006778, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688032113006844, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688032113006847, "dur":2942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688032113009799, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688032113009919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688032113009922, "dur":31356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688032113041288, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688032113041360, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688032113041363, "dur":14248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688032113055623, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/Sirenix.Serialization.Config.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688032113055712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688032113055716, "dur":43103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/Sirenix.Serialization.Config.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688032113098828, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688032113098930, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688032113098933, "dur":11439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688032113110380, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1688032113110447, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688032113110462, "dur":39770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1688032113150249, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1688032113150263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688032113150267, "dur":11227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1688032113161506, "dur":22866, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688032110417800, "dur":118, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688032110417919, "dur":3044, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688032110420970, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1688032110420972, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688032110421009, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1688032110421013, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688032110426989, "dur":1383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1688032110428374, "dur":113569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1688032110541945, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688032110541950, "dur":734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1688032110542693, "dur":97199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1688032110639895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688032110639898, "dur":383658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1688032111023575, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688032111023696, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688032111023701, "dur":177416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688032111201133, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688032111201227, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688032111201233, "dur":916062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688032112117309, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688032112117397, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688032112117403, "dur":30227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688032112147643, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688032112147736, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688032112147740, "dur":822274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688032112970022, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688032112970111, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688032112970115, "dur":4870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688032112974992, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688032112975064, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688032112975067, "dur":2986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688032112978062, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688032112978148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688032112978151, "dur":13443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688032112991601, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688032112991700, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688032112991703, "dur":9561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688032113001278, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688032113001381, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688032113001387, "dur":6034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688032113007428, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688032113007535, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688032113007537, "dur":3597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688032113011143, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688032113011276, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688032113011279, "dur":28459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688032113039747, "dur":971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688032113040720, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688032113040724, "dur":36702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688032113077436, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/PEProtocol.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688032113077513, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688032113077517, "dur":22850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/PEProtocol.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688032113100379, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1688032113100393, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688032113100397, "dur":6804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1688032113107213, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1688032113107225, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688032113107228, "dur":71089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1688032113178325, "dur":6048, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688032110417933, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688032110417934, "dur":3032, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688032110420970, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1688032110421006, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688032110427427, "dur":30383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1688032110457823, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1688032110457849, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688032110457876, "dur":27989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1688032110485875, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1688032110485893, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688032110485904, "dur":11997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1688032110497911, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1688032110497955, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688032110497958, "dur":14580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1688032110512549, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1688032110512566, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688032110512569, "dur":12480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1688032110525061, "dur":597787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688032111122851, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688032111122880, "dur":985316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688032112108209, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688032112108314, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688032112108360, "dur":11468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688032112119844, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688032112120126, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688032112120152, "dur":848081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688032112968443, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688032112968568, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688032112968572, "dur":5495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688032112974079, "dur":613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688032112974694, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688032112974697, "dur":12545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688032112987265, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688032112987378, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688032112987382, "dur":5154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688032112992543, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688032112992594, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688032112992597, "dur":12630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688032113005235, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688032113005287, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688032113005291, "dur":2862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688032113008164, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688032113008336, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688032113008339, "dur":10643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688032113018997, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688032113019160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688032113019164, "dur":30549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688032113049722, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688032113049901, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688032113049904, "dur":45312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688032113095224, "dur":2740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688032113097967, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688032113097972, "dur":24991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688032113122972, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1688032113122981, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688032113122984, "dur":27011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1688032113150012, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1688032113150030, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688032113150033, "dur":11555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1688032113161605, "dur":22807, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688032110418036, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688032110418036, "dur":2928, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688032110420970, "dur":125537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1688032110546509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688032110546644, "dur":446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1688032110547098, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod.exe" }}
+,{ "pid":12345, "tid":6, "ts":1688032110547375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688032110547378, "dur":5801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod.exe" }}
+,{ "pid":12345, "tid":6, "ts":1688032110553190, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1688032110553223, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688032110553640, "dur":48704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1688032110602358, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032110602458, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688032110602642, "dur":1313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032110603963, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032110604025, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688032110604036, "dur":1147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032110605190, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032110605261, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688032110605265, "dur":1138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032110606409, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032110606482, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688032110606485, "dur":952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032110607444, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032110607516, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688032110607519, "dur":935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032110608460, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032110608539, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688032110608542, "dur":1792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032110610341, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032110610572, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688032110610575, "dur":1175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032110611757, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032110611838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688032110611841, "dur":1481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032110613329, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032110613400, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688032110613403, "dur":989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032110614401, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032110614463, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688032110614465, "dur":1095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032110615567, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032110615639, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688032110615653, "dur":2735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032110618399, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032110618503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688032110618507, "dur":2529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032110621050, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.UIWidgetsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032110621145, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688032110621150, "dur":1099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.UIWidgetsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032110622257, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032110622338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688032110622342, "dur":1586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032110623937, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032110624100, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688032110624103, "dur":574715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032111198827, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032111198940, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688032111198944, "dur":910295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032112109248, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032112109345, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688032112109349, "dur":10969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032112120339, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032112120453, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688032112120457, "dur":849087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032112969554, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032112969622, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688032112969625, "dur":5386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032112975018, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032112975089, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688032112975092, "dur":12215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032112987317, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032112987387, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688032112987390, "dur":5494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032112992892, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032112992953, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688032112992956, "dur":12691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032113005655, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032113005713, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688032113005716, "dur":3494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032113009218, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032113009432, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688032113009435, "dur":12388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032113021833, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032113022105, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688032113022109, "dur":32686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032113054807, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/Sirenix.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032113055109, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688032113055114, "dur":43331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/Sirenix.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032113098454, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032113098621, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688032113098625, "dur":11780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688032113110413, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/resources.resource" }}
+,{ "pid":12345, "tid":6, "ts":1688032113110422, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688032113110424, "dur":39676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/resources.resource" }}
+,{ "pid":12345, "tid":6, "ts":1688032113150126, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1688032113150141, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688032113150145, "dur":11097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1688032113161257, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1688032113161359, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688032113161363, "dur":14186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1688032113175557, "dur":8855, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688032110418019, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688032110418019, "dur":2988, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688032110421007, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1688032110421052, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688032110427474, "dur":38567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1688032110466054, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1688032110466078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688032110466083, "dur":49712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1688032110515806, "dur":186223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688032110702032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688032110734876, "dur":461263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688032111196155, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688032111196293, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688032111196297, "dur":911947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688032112108252, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688032112108394, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688032112108398, "dur":10871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688032112119284, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688032112119405, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688032112119411, "dur":31249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688032112150670, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688032112150800, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688032112150803, "dur":821486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688032112972297, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688032112972398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688032112972401, "dur":4601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688032112977010, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688032112977090, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688032112977093, "dur":12108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688032112989208, "dur":315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688032112989525, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688032112989528, "dur":10346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688032112999884, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688032112999956, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688032112999960, "dur":6914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688032113006882, "dur":389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688032113007272, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688032113007275, "dur":9499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688032113016784, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688032113016862, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688032113016866, "dur":24440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688032113041315, "dur":535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688032113041851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688032113041855, "dur":23228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688032113065099, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/PESocket.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688032113065198, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688032113065202, "dur":33932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/PESocket.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688032113099144, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":7, "ts":1688032113099229, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688032113100180, "dur":6118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":7, "ts":1688032113106309, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1688032113106318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688032113106321, "dur":19544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1688032113125878, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/level3.resS" }}
+,{ "pid":12345, "tid":7, "ts":1688032113125889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688032113125893, "dur":35241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/level3.resS" }}
+,{ "pid":12345, "tid":7, "ts":1688032113161171, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1688032113161222, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688032113161237, "dur":14330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1688032113175574, "dur":8797, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688032110418060, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688032110418061, "dur":2904, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688032110420970, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1688032110421010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688032110430303, "dur":49510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1688032110479824, "dur":213421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1688032110693248, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688032110693254, "dur":42061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1688032110735347, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688032110735575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688032110735585, "dur":463998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688032111199600, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688032111199733, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688032111199740, "dur":916727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688032112116478, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688032112116577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688032112116583, "dur":31095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688032112147693, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688032112147781, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688032112147784, "dur":821094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688032112968891, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688032112968991, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688032112968995, "dur":5160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688032112974162, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688032112974228, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688032112974231, "dur":3459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688032112977698, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688032112977840, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688032112977843, "dur":12962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688032112990814, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688032112990908, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688032112990911, "dur":11261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688032113002180, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688032113002246, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688032113002249, "dur":5672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688032113007931, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688032113007999, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688032113008002, "dur":10983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688032113018998, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688032113019131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688032113019138, "dur":31514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688032113050667, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/Sirenix.Utilities.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688032113050850, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688032113050855, "dur":42451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/Sirenix.Utilities.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688032113093318, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688032113093433, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688032113093436, "dur":13726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688032113107174, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1688032113107189, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688032113107193, "dur":42782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1688032113149999, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/DarkGod/DarkGod_Data/level2.resS" }}
+,{ "pid":12345, "tid":8, "ts":1688032113150020, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688032113150032, "dur":25116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/DarkGod/DarkGod_Data/level2.resS" }}
+,{ "pid":12345, "tid":8, "ts":1688032113175168, "dur":9205, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688032113186806, "dur":1451, "ph":"X", "name": "ProfilerWriteOutput" }
+,

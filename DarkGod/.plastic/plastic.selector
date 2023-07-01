@@ -1,0 +1,4 @@
+repository "DarkGod@paddler@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"

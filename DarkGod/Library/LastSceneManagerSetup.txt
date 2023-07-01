@@ -1,0 +1,17 @@
+sceneSetups:
+- path: Assets/Resources/ResScenes/GameRoot.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
+- path: Assets/Resources/ResScenes/SceneLogin.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Resources/ResScenes/SceneMainCity.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Resources/ResScenes/SceneOrge.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
